@@ -1,0 +1,50 @@
+/*selector universal*/
+*{margin: 0;
+padding: 0;}
+
+.menu-conteiner {
+    background-color: rgba(36, 31, 136, 0.932);
+padding: 20px 0; color: rgb(255, 255, 255);
+display: flex;
+ justify-content: center; 
+/*alinear horizontamente*/
+
+}
+
+.menu { border: 1px solid rgb(255, 255, 255);width: 70%;
+display: flex;
+justify-content: space-around;}
+
+.product-conteiner { 
+    background-color: rgba(36, 31, 136, 0.932);
+    color: rgb(163, 29, 29);
+    display: flex;
+    justify-content: center;
+}
+
+.product { 
+    width: 70%;
+    height: 400px;
+    display:flex;
+    justify-content:space;
+    /*alinear verticalmente*/
+    align-items:center ;
+}
+
+.photo-grid-container{
+    display: flex;
+justify-content: center;}
+
+.photo-grid {width: 80%;
+display: flex;
+justify-content: center;
+/*cuando se desborda los elementos se activa*/
+flex-wrap: wrap;
+
+/*dereccion
+flex-direction: column-reverse; */}
+
+
+/*orden- sin afectar a los elementos circundante
+order: -1 a la izquierda +1 a ala derecha*/
+
